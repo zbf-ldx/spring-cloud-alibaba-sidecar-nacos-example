@@ -1,5 +1,5 @@
 sidecar:
-  ip: 10.151.100.20
-  port: 8089
-  health-check-url: http://10.151.100.20:8089/heath
+  ip: 172.16.3.185
+  port: 8080
+  health-check-url: http://172.16.3.185:8080/healthy
   health-check-interval: 30000

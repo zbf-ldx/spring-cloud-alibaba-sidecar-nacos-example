@@ -13,8 +13,14 @@ spring:
       config:
         server-addr: ${nacos.server-addr}
         file-extension: yml
+      username: nacos
+      password: XWDCD6gSsCDcJ1NiveTinl4oYbWaBCEK/CqeWEM4EkKlkGL/2dlVZCaZapH1O0CHEDBmC9qebDdAFoYWpL67U3CsHMLDunUTJp6Y/BuOe2Y32qYZdtZ37vyVYswOWT+qG3o21gx60KXf8eDhe5YbWds4+YnWOZTyCLS2jtHbgAA=
       discovery:
         server-addr: ${nacos.server-addr}
+    gateway:
+      discovery:
+        locator:
+          enabled: true
 
 management:
   info:
